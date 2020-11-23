@@ -8,7 +8,7 @@ public class FizzBuzz {
 
         if (isMultipleOf(number, 3) && isMultipleOf(number, 5)) return "FizzBuzz";
         if (isMultipleOf(number, 3)) return "Fizz";
-        if (isMultipleOf(number, 5)) return "Buzz"
+        if (isMultipleOf(number, 5)) return "Buzz";
 
 
         return String.valueOf(number);
